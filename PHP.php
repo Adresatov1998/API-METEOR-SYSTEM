@@ -1,4 +1,4 @@
-echo $city = 'moscow';
+echo $city = 'moscow'; //замените на свой город
 $url = "http://meteor.serversys.ru/v1?city=$city";
 $response = file_get_contents($url);
 if ($response !== false) {
